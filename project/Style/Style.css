@@ -1,0 +1,157 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap'); */
+
+@import url(fonts.css);
+
+*{margin:0px;padding:0px;}
+a{text-decoration: none;}
+body{font-family: VTHRegular;font-size: 12px;}
+
+:root{
+    --clr1:#f85a3f;
+    --clr2:#eb3d1d;
+    --clr3:#1f1d1d;
+    --clr4:#ffffff;
+    --clr5:#909092;
+    --clr6:#0a0358;
+    --clr7:rgb(164, 10, 10);
+}
+
+/* Our own customized class */
+.fleft{float:left;}
+.fright{float:right;}
+.lft{text-align: left;}
+.rgt{text-align: right;}
+.jst{text-align: justify;}
+.cnt{text-align: center;}
+.f20{font-size: 20px;}
+.f15{font-size: 15px;}
+.f30{font-size: 30px;}
+.f40{font-size: 40px;}
+.f50{font-size: 50px;}
+.mauto{margin:0 auto;}
+.oauto{overflow: auto;}
+.black1{color:#1f1e1e;}
+.black2{color:#3e404d;}
+.white{color:white;}
+
+.m_tb_10{margin:10px 0px;}
+.m_tb_20{margin:20px 0px;}
+.p_tb_10{padding:10px 0px;}
+.p_tb_20{padding:20px 0px;}
+
+
+.tit_txt{color:#1f1e1e;font-size: 35px;text-align: center;}
+.line1{height:1px;width:100px;background-color: #1f1e1e;margin: 0 auto;}
+
+/* Top Header */
+#top_header{height:15px;padding:6px 0px;width: 100%;background-color: #333333;}
+#top_wrap{height:15px;width:1100px;margin:0 auto;}
+#top_left{float:left;height:15px;width:400px;}
+#top_right{float:right;height:15px;width:300px;text-align: right;}
+#top_wrap span,#top_wrap a{color:var(--clr4);margin:0px 10px;}
+
+/* Header */
+#header{padding:15px 0px;height:60px;background-color: var(--clr1);}
+#header_wrap{height:60px;width:1100px;margin:0 auto;}
+#logo{height:60px;width:200px;float:left;
+background-image: url(../Images/logo.PNG);background-size: 100%;
+}
+#menu{width:600px;float:right;text-align: right;padding-top:20px;}
+#menu a{color:var(--clr4);font-family: VTHMedium;font-size:16px;margin-left:20px;}
+#menu a:hover{border-bottom:2px dotted var(--clr4);}
+#menu #call_but{color:var(--clr1);background: var(--clr4);padding:4px 15px;border-radius:2px;
+font-family: VTHBold;text-transform: uppercase;
+}
+#menu #call_but:hover{border-bottom: 0px;}
+
+/* Banner */
+#banner{padding:50px 0px;height:300px;background-color: #f2f5fa;}
+#banner_wrap{height:300px;margin:0 auto;width:1100px;}
+#ban_left{width:600px;height:300px;float:left;}
+#ban_right{width:350px;height:350px;float:right;border-radius: 100%;
+background-image: url(../Images/pic4.jpg);background-size: 100%;
+box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+}
+
+.txt1{color: var(--clr3);font-size:40px;font-family: VTHThin;}
+.txt2{color: var(--clr3);font-size:40px;font-family: VTHBlack;}
+.para1{margin:20px 0px;color:var(--clr5);font-family: VTHLight;letter-spacing: 1px;
+    text-align: justify;}
+
+#btn_wrap{padding:20px 0px;}
+.btn1{background-color: var(--clr3);}
+.btn2{background-color: var(--clr2);}
+.btn1,.btn2{padding:8px 20px;font-size: 18px;color:white;font-family: VTHThin;border-radius:1px;}
+
+/* About Us */
+#about{padding:50px 0px;overflow: auto;width:1100px;margin:0 auto;}
+.about_items{padding:10px 0px;}
+.ab_box{height:120px;width:90px;float:left;margin:40px;}
+.circle_box{width:90px;background-color: var(--clr1);border-radius:50%;
+text-align: center;
+}
+
+.circle_box span{font-size:30px;padding:30px 0px;color:white;}
+
+/* Popular Items */
+#pop_items{padding:50px 0px; width:1100px;margin: 0 auto;}
+#food_wrap{padding:20px 0px;overflow: auto;}
+.food_cont{width:198px;float:left;
+    margin:0px 10px;border:1px solid #d6d7d8;border-radius:2px;}
+
+.food_pic{width:198px;height:200px;}
+.food_pic img{width:100%;border-radius:2px;}
+.food_name{padding:5px;font-size:15px;font-family: VTHBoldCondensed;color:var(--clr2);}
+.food_info{font-family: VTHMedium;color:#909092;}
+.food_info span{margin:0px 5px;}
+.food_info span i{font-size:8px;}
+.food_price{padding:0px 5px;margin:20px 0px;}
+.food_price span{background-color: rgba(248, 90, 63,0.4);padding:2px 5px;border-radius:20px;}
+.food_rate{padding:5px;color:#2eb118;}
+
+.fixed_box{padding:50px 0px;width:100%;height:200px;
+background-image: url(../Images/banner.jpg);
+background-size: 100%;background-attachment: fixed;
+}
+/*map*/
+.map{height:300px;margin:50px 0px;width:100%;}
+.map iframe{height:300px;width:100%;}
+
+
+
+/*dealbox*/
+.deal{width:100%;overflow:auto;background-color: #ebf1f3;}
+.dealbox{width:1100px;overflow:auto;padding-bottom:5px;margin:0 auto;background-color:#e3f0f7;}
+.todays{color:var(--clr3);margin:0 auto;width:500px;text-align:center;font-family: every;font-size: 32px;padding:10px;}
+.dealboxinside{width:200px;padding-top:10px;height:180px;float:left;margin:20px 9px;background-color:var(--clr2);border:1px solid var(--clr6);border-radius: 20px;}
+.dealimg{width:70px;;height:70px;margin:0 auto;border-radius:50%;}
+.dishname{width:200px;height:20px;margin:10px auto;font-family:Rblack;font-size: 16px;word-spacing:3px;}
+.dishprice{width:100px;height:20px;margin:10px auto;font-family:Rblack;font-size: 16px;padding-left:10px;}
+.dishbuy a{width:90px;height:20px;margin-left:45px;font-family:Rblack;background-color: var(--clr6);color:var(--clr4);padding:5px 10px;font-size:18px;border:1px solid black;border-radius: 10px;transition: all 0.2s;}
+.dishbuy a:hover{color:var(--clr4);background-color: var(--clr1)}
+/*Dish Img*/
+#deal1{background-image: url(../Images/chicken1.jpg);background-size:150%;background-repeat:no-repeat;}
+#deal2{background-image: url(../Images/pizza1.jpg);background-size:150%;background-repeat:no-repeat;}
+#deal3{background-image: url(../Images/pic5.jpg);background-size:100%;background-repeat:no-repeat;}
+#deal4{background-image: url(../Images/fish1.jpg);background-size:160%;background-repeat:no-repeat;}
+#deal5{background-image: url(../Images/burger.jpg);background-size:150%;background-repeat:no-repeat;}
+
+
+.dealimg{background-position: center center;}
+
+#name1,#name2,#name3,#name4,#name5{text-align: center;padding:5px auto;}
+
+/*footer*/
+.overlay:hover{top:200px;}
+#locat{width:1100px;overflow: auto;background-color: #f2f5fa;margin:0 auto;}
+.locatbox{width:300px;overflow: auto;float:left;margin:30px 33px;}
+.locattitle{width:250px;height:40;margin:5px auto;text-align: center;font-family:every;font-size: 18px;color:var(--clr2);}
+.locatinfo1,.locatinfo2,.locatinfo3{width:200px;height:30px;text-align: center;margin:5px auto;font-family:Rbold;font-size:16px;color:black;}
+#info2{width:230px;height:30px;margin-top:5px;margin-left: 40px;font-family:Rbold;font-size:14px;color:black;}
+.whinfo{width:200px;height:20px;text-align: center;margin:5px auto;font-family:Rbold;font-size:14px;color:black;}
+#marg{margin-top:20px;}
+.inp{margin:5px 65px; background-color: #352d22;color:white;}
+#inp1{margin:10px 100px;padding:5px 20px;background-color:var(--clr1);color:rgb(223, 223, 173);font-size: 16px;border-radius: 10px;}
+#footer{width:100%;height:40px;background-color:var(--clr3);}
+#foot{width:1100px;height:20px;background-color: rgba(0, 0, 0, 0.749);color:var(--clr1);margin:0 auto;text-align: center;padding:10px 0px;}

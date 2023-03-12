@@ -1,0 +1,92 @@
+@font-face {
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: "VTHRegular";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Bold.ttf);
+    font-family: "VTHBold";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Italic.ttf);
+    font-family: "VTHItalic";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Thin.ttf);
+    font-family: "VTHThin";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Light.ttf);
+    font-family: "VTHLight";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Medium.ttf);
+    font-family: "VTHMedium";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Condensed.ttf);
+    font-family: "VTHCondensed";
+}
+
+@font-face {
+    src: url(fonts/Roboto-Black.ttf);
+    font-family: "VTHBlack";
+}
+
+@font-face {
+    src: url(fonts/Roboto-BoldCondensed.ttf);
+    font-family: "VTHBoldCondensed";
+}
+
+
+@font-face {
+    src: url(fonts/LaBelleAurore-Regular.ttf);
+    font-family: "VTHBelle";
+}
+
+@font-face {
+    src: url(fonts/EveryWeekDemoRegular.ttf);
+    font-family: "VTHWeek";
+}
+@font-face {
+    font-family:Rbold ;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Rblack ;
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family:Rboldc ;
+    src: url(fonts/Roboto-BoldCondensedItalic.ttf);
+}
+@font-face {
+    font-family:Rlight ;
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Rregular ;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Rthin ;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family:Rmedium ;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Lregular ;
+    src: url(fonts/LaBelleAurore-Regular.ttf);
+}
+@font-face {
+    font-family:Every ;
+    src: url(fonts/EveryWeekDemoRegular.ttf);
+}
+
